@@ -1,0 +1,27 @@
+{
+  "name": "aster-dark",
+  "displayName": "Aster Dark",
+  "description": "Aster is a dark theme designed to create a comfortable coding environment.",
+  "license": "MIT",
+  "publisher": "jtheol",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.97.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Aster",
+        "uiTheme": "vs-dark",
+        "path": "./themes/aster-dark-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jtheol/aster-dark.git"
+  }
+}
